@@ -56,7 +56,19 @@ form h4{
 .form-control{
     background-color:rgba(241, 229, 229, 0.726) !important;
 }
-h6.text-light{
-    margin-bottom: 0;
+footer.son .text-light{
+  margin-top: 29rem;
+  color: rgba(189, 163, 163, 0.795);
+  box-shadow:  black;
+  font-size: .8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 1px 1px 3px black;
+  
+  
+}
+form.date a{
+    z-index: 66;
+    background-color: red;
+    border-radius: 3rem solid red;
 }
     
