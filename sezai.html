@@ -60,9 +60,11 @@
         <form class="date" action="">
             <div class="mb-3">
                 <h4 class="text-light">PICK YOUR DATE & TIME</h4>
-                <input type="text" class="form-control form-control-s" id="name" autocomplete="off" required />
-                <a href="#"><i class="fas fa-calendar-alt"></i></a>
-                <a class="text-dark" href="#"><i class="fas fa-times "></i></a>
+                <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="addon-wrapping">
+                    <span class="input-group-text" id="addon-wrapping"><a href="#"><i class="fas fa-calendar-alt"></i></a>
+                        <a href="#"><i class="fas fa-times "></i></a></span>
+                </div>
             </div>
             <div class="mb-3">
                 <h4 class="text-light mt-4">RESERVATION DETAILS</h4>
