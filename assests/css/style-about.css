@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url("../img/8.jpg");
+  background-image: url("../img/kahvaltı.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -13,7 +13,7 @@ body {
 }
 .container {
   position: absolute;
-  background-color: rgba(14, 10, 10, 0.925);
+  background-color: rgba(14, 10, 10, 0.938);
   color: rgb(106, 113, 117);
   width: 50%;
   height: 100%;
@@ -37,7 +37,6 @@ span {
   color: #f32c2c;
   padding-right: 3rem;
   padding-left: 0;
-  margin-left: 0;
 }
 p {
   padding-left: 0.7rem;
@@ -51,7 +50,7 @@ p {
   font-weight: bold;
 }
 h5 {
-  color: aliceblue;
+  color: rgb(236, 188, 83);
   padding-top: 4rem;
   font-weight: bold;
 }
@@ -59,9 +58,9 @@ h5 {
   text-decoration: none;
   background-color: #f32c2c;
   font-weight: bold;
-  color: aliceblue;
   padding: 0.5rem 0.8rem;
   border-radius: 0.1rem;
+  color: rgb(158, 162, 165);
 }
 
 .table {
