@@ -1,0 +1,93 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1510&q=80");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Oswald;
+    font-size: 1rem;
+  }
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 7;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  nav.navbar {
+    padding: 1rem;
+  }
+  .navbar-dark .navbar-brand span {
+    color: #f32c2c;
+    padding: 0rem 0.2rem;
+  }
+  .form-control {
+    background-color: rgba(119, 116, 116, 0.274);
+   width: 100%;
+  }
+  .form-control-sm {
+    width: 70%;
+  }
+  .contact-form {
+    background-color: #292828e1 !important;
+    margin-top: 4rem;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    padding: 2rem;
+  }
+  @media (max-width: 400px) {
+    .contact-form {
+      height: 50%;
+    width: 100%;
+    }
+  }
+  
+  .contact-form h5 {
+    margin-top: 3rem;
+    padding: 0;
+    color: rgb(199, 26, 26);
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+  @media (max-width: 400px) {
+    .contact-form h5 {
+    color: rgb(230, 15, 15);
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: left;
+    }
+  }
+  .contact-form h2 {
+    color: rgba(199, 180, 180, 0.904);
+    font-weight: 800;
+    font-size: 0.7rem;
+    text-align: left;
+    margin-top: 1rem;
+  }
+  .input-group {
+    width: 40% !important;
+    background-color: rgba(170, 159, 159, 0.719);
+  }
+  @media (max-width: 400px) {
+    .input-group {
+       margin-top: 1rem;
+      margin-bottom: 1rem;
+      width: 80%;}
+  }
+  .input-group-text .fas{
+      color: rgba(255, 255, 255, 0.726) !important;
+      background-color: #e6dddd31 !important;
+      border: none !important;
+  }
+  .input-group-text {
+      background-color: #8d898931 !important;
+      border: none !important;
+  }
+  
